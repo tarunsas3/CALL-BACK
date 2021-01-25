@@ -1,25 +1,25 @@
 var countdown = document.getElementById("first_element");
-setTimeout(function () {
+setTimeout(() => {
   countdown.innerHTML = 10;
-  setTimeout(function () {
+  setTimeout(() => {
     countdown.innerHTML = 9;
-    setTimeout(function () {
+    setTimeout(() => {
       countdown.innerHTML = 8;
-      setTimeout(function () {
+      setTimeout(() => {
         countdown.innerHTML = 7;
-        setTimeout(function () {
+        setTimeout(() => {
           countdown.innerHTML = 6;
-          setTimeout(function () {
+          setTimeout(() => {
             countdown.innerHTML = 5;
-            setTimeout(function () {
+            setTimeout(() => {
               countdown.innerHTML = 4;
-              setTimeout(function () {
+              setTimeout(() => {
                 countdown.innerHTML = 3;
-                setTimeout(function () {
+                setTimeout(() => {
                   countdown.innerHTML = 2;
-                  setTimeout(function () {
+                  setTimeout(() => {
                     countdown.innerHTML = 1;
-                    setTimeout(function () {
+                    setTimeout(() => {
                       countdown.innerHTML = "HAPPY INDEPENDANCE DAY";
                     }, 1000);
                   }, 1000);
@@ -32,4 +32,5 @@ setTimeout(function () {
     }, 1000);
   }, 1000);
 });
+
 
